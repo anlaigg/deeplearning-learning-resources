@@ -1,16 +1,20 @@
-# Python学习——爬虫
+# Python与深度学习基础——作业一
 
-![image-20230401104212775](F:\fsl\Python学习-爬虫.assets\image-20230401104212775.png)
+## 功能：
 
-## 步骤：
+爬取网页中的王者荣耀各英雄数据，并可视化
 
-### 数据采集+数据处理——
+## GitHub链接：
+
+[anlaigg](https://github.com/anlaigg/deeplearning-learning-resources/tree/main/爬虫)
+
+## 实验步骤：
 
 ### 1.发request请求
 
 如果状态200则将text转为soup对象
 
-### 2.三个框框分别进行检索
+### 2.各个属性分别进行检索
 
 css匹配：
 
@@ -57,6 +61,8 @@ solution
         c[t[0]]=t[1]
 ~~~
 
+
+
 ### 3.写get_detail接收url返回dict
 
 ### 4.制定遍历策略（lab2_2）
@@ -74,7 +80,13 @@ for item in parse_over[0:106]:
 
 ### 5.遍历调用get_detail转json写入文件
 
+### 6.可视化
 
+
+
+## 实验总结：
+
+Python真有用！
 
 ## 参考链接：
 
